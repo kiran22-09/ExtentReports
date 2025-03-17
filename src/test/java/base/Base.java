@@ -10,6 +10,8 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Base {
 	
+	//Base
+	
 	public String takeScreenShot(String testName , WebDriver driver) {
 		
 	File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
